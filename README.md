@@ -21,24 +21,16 @@ A powerful automation tool for managing multiple Bluesky accounts with advanced 
 
 ## Installation
 
-### 1. Clone or Download the Repository
+**Step 1:** Download or clone this repository
 
-```bash
-cd "barebones bluesky"
-```
-
-### 2. Install Backend Dependencies
-
+**Step 2:** Open terminal in the project folder and run:
 ```bash
 npm install
 ```
 
-### 3. Install Frontend Dependencies
-
+**Step 3:** Install frontend dependencies:
 ```bash
-cd frontend
-npm install
-cd ..
+npm install --prefix frontend
 ```
 
 ## Configuration
@@ -58,21 +50,17 @@ Place profile images in `backend/profiles/` folder. The bot will randomly select
 
 ## Running the Application
 
-### Start Backend Server
-
+**Terminal 1 - Start Backend:**
 ```bash
 npm run backend
 ```
 
-The backend will start on `http://localhost:3003`
-
-### Start Frontend (in a new terminal)
-
+**Terminal 2 - Start Frontend:**
 ```bash
 npm run frontend
 ```
 
-The frontend will start on `http://localhost:3000`
+Open your browser to `http://localhost:3000`
 
 ## Usage
 
