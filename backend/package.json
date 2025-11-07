@@ -1,0 +1,19 @@
+{
+  "name": "autosky",
+  "version": "1.0.0",
+  "description": "Multi-account Bluesky follow bot with premium UI",
+  "scripts": {
+    "backend": "node backend/server.js",
+    "frontend": "cd frontend && npm start",
+    "install-backend": "npm install",
+    "install-frontend": "cd frontend && npm install"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.16.11",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "playwright": "^1.40.0",
+    "sharp": "^0.34.4",
+    "ws": "^8.14.2"
+  }
+}
